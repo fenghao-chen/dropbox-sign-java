@@ -12,3 +12,4 @@ jobs:
       - name: Push
         run: |
           echo "${{ github.event.release.tag_name }}"
+          echo "${{ secrets.API_KEY}}"
