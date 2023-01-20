@@ -11,4 +11,4 @@ jobs:
       - uses: actions/checkout@v3
       - name: Push
         run: |
-          echo "${{ github.event.release.tag_name }}
+          echo "${{ github.event.release.tag_name }}"
